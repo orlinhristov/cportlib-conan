@@ -5,6 +5,7 @@ class CPortLibConan(ConanFile):
     name = "cportlib"
     version = "1.0"
     author = "Orlin Hristov, orlin dot hristov at gmail dot com"
+    license = "Apache License Version 2.0"
     url = "https://github.com/orlinhristov/cportlib-conan"
     description = "A header-only C++ library that manages parallel task processing in concurrent environment. It " \
                   "provides mechanism for asynchronous execution of multiple task handlers and invocation " \
