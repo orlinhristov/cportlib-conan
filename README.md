@@ -4,7 +4,7 @@ cport library package for conan.io
 ### Basic Setup
 
 ```sh
-$ conan install cportlib/1.0@batoro/stable
+$ conan install cportlib/1.0@conan/stable
 ```
 
 ### Project Setup
@@ -12,7 +12,7 @@ If you handle multiple dependencies in your project is better to add a *conanfil
 
 ```
 [requires]
-cportlib/1.0@batoro/stable
+cportlib/1.0@conan/stable
 
 [generators]
 txt
